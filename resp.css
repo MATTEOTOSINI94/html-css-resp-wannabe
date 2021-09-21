@@ -6,6 +6,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-top: 0;
     }
 
         #lezioni .row > .left,
@@ -14,14 +15,17 @@
         #steps .row>.central,
         #steps .row>.right{
             width: 85%;
+            padding: 10px 0;
     }
 
-    #lezioni .row{
-        background-color: yellow;
-    }
-    #why .row{
-        background-color: yellow;
-    }
+    
+
+        #lezioni .row{
+            background-color: yellow;
+        }
+        #why .row{
+            background-color: yellow;
+        }
 
 
     
